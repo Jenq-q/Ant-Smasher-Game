@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ant Smasher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="highscoreBtn">🏆</button>
+      <div id="score"></div>
+      <div id="lives"></div>
+      <button id="reset">Reset</button>
+      <div id="gameCanvas"></div>
+    </div>
+
+    <div id="highscorePanel" class="highscore-panel">
+      <button class="close-btn" onclick="toggleHighscores()">&times;</button>
+      <h2>🏆 High Scores</h2>
+      <div id="highscoreList"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
