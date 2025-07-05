@@ -215,6 +215,8 @@ function resumeGame() {
 }
 
 function antClicked() {
+  if (this.classList.contains("clicked")) return;
+  this.classList.add("clicked");
   let clickedAnt = this.querySelector("img");
   clickedAnt.src =
     "https://img.icons8.com/?size=100&id=122601&format=png&color=000000";
