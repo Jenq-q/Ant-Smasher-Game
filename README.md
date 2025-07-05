@@ -1,4 +1,5 @@
-Ant Smasher Game
+Ant Smasher Game:
+
 A fun and addictive web-based game where your goal is to smash as many ants as possible! Test your reflexes and aim for the highest score.
 
 Play Online
