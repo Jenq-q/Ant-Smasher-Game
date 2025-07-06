@@ -85,12 +85,12 @@ function startGame() {
 
 function getCurrentSpawnInterval() {
   // Decrease spawn interval by 15ms for every 5 points, minimum 300ms
-  return Math.max(300, baseSpawnInterval - Math.floor(i / 2) * 15);
+  return Math.max(300, baseSpawnInterval - Math.floor(i / 3) * 50);
 }
 
 function getCurrentDeletionTime() {
   // Decrease deletion time by 100ms for every 8 points, minimum 1500ms
-  return Math.max(1500, baseDeletionTime - Math.floor(i / 3) * 100);
+  return Math.max(1500, baseDeletionTime - Math.floor(i / 5) * 300);
 }
 
 function spawnAnt() {
